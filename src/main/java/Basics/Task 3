@@ -1,0 +1,35 @@
+Aufgabe 3.4: Probleme auf dem Millennium Falken
+Diese Aufgabe richtet sich an diejenigen, die sich weiter mit der Nutzung von Schleifen beschäftigen möchten.
+Sie befinden sich auf dem Millennium Falken und leider ist ein Software-Element ausgefallen. Es handelt sich
+um die Software zur Erkennung der Schiffe des Imperiums. Das Schiff ist lediglich in der Lage zu erkennen,
+wie viele Raumschiffe in der mittleren Linie fliegen. Durch die Erfahrung Han Solos wissen Sie bereits, dass
+die Schiffe der imperialen Flotte immer in der Form einer Pyramide fliegen.
+Nun werden Sie von Han Solo damit betraut, das Software-Modul zu ersetzen. Leider hat Chewbacca keine Ersatzteile eingepackt. Sie haben daher lediglich Bauteile für eine do-while-, eine while- und zwei for-Schleifen
+zur Verfügung. Schreiben Sie nun ein Konsolenprogramm, das nach Eingabe der Anzahl an zentral fliegenden Raumschiffen die Formation der Raumschiffe als Pyramide ausgibt. Geben sie zudem noch aus, wie viele
+Raumschiffe insgesamt zu sehen sein sollten
+Beispiel für 4 zentral fliegende Raumschiffe:
+
+                  *
+                * * *
+              * * * * *
+            * * * * * * *
+
+• Achten Sie darauf, nur die angegebenen Schleifentypen zu verwenden.
+• Da das Imperium niemals zu viele Schiffe auf einmal auf die Jagd schickt, sind maximal 100 Schiffe in
+einer Formation zu finden.
+• Aufgrund von Fehlberechnungen kann es vorkommen, dass der Falke Ihnen negative Zahlen gibt. Ihr
+Programm soll negative Zahlen nicht beachten und warten bis eine positive Zahl vom Falken berechnet
+wird.
+Achten sie auf sicheres Einlesen. Überlegen Sie sich zunächst, wie die Pyramide aufgebaut ist. Wie viele Schiffe
+fliegen in der nächsten Reihe, verglichen mit der vorherigen? Wie erreiche ich die äußere Form einer Pyramide?
+Hinweise: Tasten Sie sich schrittweise an die Forderungen heran, wenn Sie Probleme haben. Ignorieren Sie
+beispielsweise die Vorgabe der Schleifentypen oder, falls Sie Probleme bei der Pyramide haben, erstellen Sie
+zuerst ein Dreieck, das so aussehen könnte:
+
+*
+* *
+* * * *
+
+
+
+Erstelle hierfür wieder eine neue Klasse.

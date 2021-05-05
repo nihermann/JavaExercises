@@ -1,0 +1,14 @@
+Aufgabe 2: Temperaturumrechnungen
+Informieren Sie sich über die Umrechnungsformeln zwischen den Einheiten Celsius, Kelvin und Fahrenheit.
+Schreiben Sie ein Konsolenprogramm, das eine Temperatur, eine Starteinheit sowie eine Zieleinheit einliest,
+die Temperatur in die Zieleinheit umrechnet und ausgibt. Achten Sie auf eine geeignete Fehlerbehandlung für
+nicht sinnvolle Eingaben.
+
+Lege dafür eine neue Klasse mit geeignetem Namen an. Nachdem du eine main methode erstellt hast kannst du diese einmal leer ausführen. Wenn du nun den grünen Pfeil
+neben der main drückst und den letzten Punkt "Modify Run Configuration..." hast du die Möglichkeit, im Bereich von "Build and Run" das Feld "Program arguments" als input
+zu verwenden. Alles was du hier eingibst wirst du zur Laufzeit dann in dem String array args deiner main methode wiederfinden. Gib hier 3 argumente mit space getrennt an:
+
+Temperatur Starteinheit Zieleinheit
+
+Die umgerechnete Temperatur soll final auf der Konsole ausgegeben werden. Bei der Angabe von ungültigen Argumenten soll das Program beendet werden und der
+User über die richtige Verwendung des Programmes belehrt werden.
